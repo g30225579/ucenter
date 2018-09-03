@@ -1,4 +1,4 @@
-<?php namespace G30225579\Ucenter\Contracts;
+<?php namespace Ximen\Ucenter\Contracts;
 
 interface Api
 {

@@ -1,4 +1,4 @@
-<?php namespace G30225579\Ucenter;
+<?php namespace Ximen\Ucenter;
 
 use Config,Route;
 
@@ -31,7 +31,7 @@ class Ucenter
     }
 
     public function routes(){
-        Route::any(config('ucenter.url').'/api/'.config('ucenter.apifilename'), '\G30225579\Ucenter\Controllers\ApiController@run');
+        Route::any(config('ucenter.url').'/api/'.config('ucenter.apifilename'), '\Ximen\Ucenter\Controllers\ApiController@run');
     }
 
     public function __call($function, $arguments)

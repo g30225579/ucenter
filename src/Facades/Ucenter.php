@@ -1,4 +1,4 @@
-<?php namespace G30225579\Ucenter\Facades;
+<?php namespace Ximen\Ucenter\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

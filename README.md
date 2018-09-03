@@ -6,7 +6,7 @@
 
 运行命令：
 ~~~
-composer require g30225579/ucenter
+composer require ximen/ucenter
 ~~~
 
 安装完后，在 `app/config/app.php` 文件中找到 `providers` 键，
@@ -14,7 +14,7 @@ composer require g30225579/ucenter
 ~~~
 'providers' => [
 
-    'G30225579\Ucenter\UcenterServiceProvider'
+    'Ximen\Ucenter\UcenterServiceProvider'
 
 ]
 ~~~
@@ -24,7 +24,7 @@ composer require g30225579/ucenter
 ~~~
 'aliases' => [
 
-    'Ucenter' => 'G30225579\Ucenter\Facades\Ucenter'
+    'Ucenter' => 'Ximen\Ucenter\Facades\Ucenter'
 
 ]
 ~~~
@@ -62,7 +62,7 @@ return [
     'apifilename'    => env('UC_APIFILENAME', 'uc'),
 
     //这里如果要异步登陆，可以直接继承这个类实现其中的方法，也可以创建app/Service/Ucenter.php(文件放哪里都可以，这里只是推荐) 实现该类实现的接口【*】
-    'service'        => env('UC_SERVICE', 'G30225579\Ucenter\Services\Api'),
+    'service'        => env('UC_SERVICE', 'Ximen\Ucenter\Services\Api'),
 ];
 
 ```

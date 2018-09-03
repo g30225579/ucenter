@@ -1,5 +1,5 @@
 {
-    "name": "g30225579/ucenter",
+    "name": "ximen/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "G30225579\\Ucenter\\": "src/"
+            "Ximen\\Ucenter\\": "src/"
         }
     },
     "require": {

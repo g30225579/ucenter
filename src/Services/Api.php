@@ -1,8 +1,8 @@
-<?php namespace G30225579\Ucenter\Services;
+<?php namespace Ximen\Ucenter\Services;
 
-use G30225579\Ucenter\Services\Help;
+use Ximen\Ucenter\Services\Help;
 
-class Api implements \G30225579\Ucenter\Contracts\Api
+class Api implements \Ximen\Ucenter\Contracts\Api
 {
     use Help;
 

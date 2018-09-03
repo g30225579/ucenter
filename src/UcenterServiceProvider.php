@@ -1,4 +1,4 @@
-<?php namespace G30225579\Ucenter;
+<?php namespace Ximen\Ucenter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -30,6 +30,6 @@ class UcenterServiceProvider extends ServiceProvider
             return new Ucenter;
         });
 
-        $this->app->bind('G30225579\Ucenter\Contracts\Api', config('ucenter.service'));
+        $this->app->bind('Ximen\Ucenter\Contracts\Api', config('ucenter.service'));
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace G30225579\Ucenter\Services;
+namespace Ximen\Ucenter\Services;
 
 trait Help{
 
