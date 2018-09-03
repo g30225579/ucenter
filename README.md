@@ -2,7 +2,7 @@
 
 说明：本项目在 https://github.com/noxue/ucenter 项目的基础上做了修改。
 
-增加PHP7支持
+1、增加PHP7支持
 
 运行命令：
 ~~~
