@@ -11,7 +11,7 @@ class ApiController extends Controller
 
 	public function __construct()
 	{
-        error_reporting(E_ALL ^ E_NOTICE);
+        error_reporting(0);
 
         if (!defined('UC_KEY') || !define('API_ROOT')) {
     		define('UC_CLIENT_VERSION', '1.6.0');    //note UCenter 版本标识
